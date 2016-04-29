@@ -1,0 +1,34 @@
+{
+  "name": "markdown-json",
+  "version": "0.0.1",
+  "description": "A Markdown to JSON Layer",
+  "main": "mdDataLayer.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanfischler/mardown-json.git"
+  },
+  "keywords": [
+    "markdown",
+    "json",
+    "nosql"
+  ],
+  "author": "Dylan Fischler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dylanfischler/mardown-json/issues"
+  },
+  "homepage": "https://github.com/dylanfischler/mardown-json#readme",
+  "dependencies": {
+    "github-markdown": "^2.2.0",
+    "markdown-it": "^6.0.1",
+    "markdown-it-mdrenderer": "^0.1.0",
+    "markdown-to-html": "0.0.11"
+  }
+}

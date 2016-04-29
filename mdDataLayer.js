@@ -38,7 +38,7 @@ module.exports.readMD = (mdObj) => {
 const parsePlain = (tokens) => {
 	let repReg = /[*`]/g;
 	tokens.forEach((token) => {
-		console.log(token.content.replace(repReg, ''));
+		// console.log(token.content.replace(repReg, ''));
 	});
 	return {};
 };
